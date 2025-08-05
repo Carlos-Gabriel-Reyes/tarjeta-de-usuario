@@ -1,0 +1,33 @@
+
+.user-card {
+    width: 400px;
+    height: 40px;
+    background-color: rgb(53, 177, 226);
+    border: 1px hidden;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    margin-right: 20px;
+    border:4px solid #f9f9f9;
+}
+.user-pais{
+    font-size: 20px;
+}
+
+.userbio, .descripcion {
+    font-size: 14px;
+    margin: 0px 2px;
+}
+.editar{
+    margin-top: 20px;
+    border: hidden;
+}
